@@ -1,0 +1,130 @@
+2022-11-11 00:25:02,052 INFO com.book.onboard.BookOnboardingApp [restartedMain] Starting BookOnboardingApp on Hemanth-Kunchala with PID 31628 (C:\Users\Hemanth_Kunchala\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\Author_WordTracker_Application\target\classes started by Hemanth_Kunchala in C:\Users\Hemanth_Kunchala\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\Author_WordTracker_Application)
+2022-11-11 00:25:02,054 INFO com.book.onboard.BookOnboardingApp [restartedMain] The following profiles are active: dev
+2022-11-11 00:25:03,350 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2022-11-11 00:25:03,350 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.16]
+2022-11-11 00:25:03,361 INFO org.apache.catalina.core.AprLifecycleListener [restartedMain] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Users\Hemanth_Kunchala\Downloads\sts-4.16.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20221004-1257\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/Hemanth_Kunchala/Downloads/sts-4.16.1.RELEASE//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20221004-1257/jre/bin/server;C:/Users/Hemanth_Kunchala/Downloads/sts-4.16.1.RELEASE//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20221004-1257/jre/bin;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Python310\Scripts\;C:\Python310\;C:\Program Files\Java\jdk-11.0.15\bin;C:\Program Files\Eclipse Adoptium\jdk-8.0.332.9-hotspot\bin;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Hemanth_Kunchala\AppData\Local\Microsoft\WindowsApps;C:\Users\Hemanth_Kunchala\.dotnet\tools;C:\Users\Hemanth_Kunchala\AppData\Local\Programs\Microsoft VS Code\bin;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\system32;C:\Program Files (x86)\Nmap;C:\Users\Hemanth_Kunchala\AppData\Local\JetBrains\Toolbox\scripts;C:\Users\Hemanth_Kunchala\AppData\Roaming\npm;C:\Users\Hemanth_Kunchala\Downloads\sts-4.16.1.RELEASE;;.]
+2022-11-11 00:25:03,448 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-11-11 00:25:03,448 DEBUG org.springframework.web.context.ContextLoader [restartedMain] Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2022-11-11 00:25:03,448 INFO org.springframework.web.context.ContextLoader [restartedMain] Root WebApplicationContext: initialization completed in 1362 ms
+2022-11-11 00:25:03,559 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-11-11 00:25:03,675 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-11-11 00:25:04,888 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [restartedMain] Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2022-11-11 00:25:04,992 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [restartedMain] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-11-11 00:25:05,043 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [restartedMain] 8 mappings in 'requestMappingHandlerMapping'
+2022-11-11 00:25:05,051 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [restartedMain] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-11-11 00:25:05,057 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [restartedMain] ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-11-11 00:25:05,238 INFO com.book.onboard.BookOnboardingApp [restartedMain] Started BookOnboardingApp in 3.432 seconds (JVM running for 4.02)
+2022-11-11 00:25:21,929 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-9898-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-11 00:25:21,929 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-9898-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-11-11 00:25:21,929 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-9898-exec-1] Detected StandardServletMultipartResolver
+2022-11-11 00:25:21,934 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-9898-exec-1] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-11-11 00:25:21,935 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-9898-exec-1] Completed initialization in 6 ms
+2022-11-11 00:25:21,942 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-9898-exec-1] POST "/book", parameters={}
+2022-11-11 00:25:21,945 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [http-nio-9898-exec-1] Mapped to public java.lang.String com.book.onboard.controller.BookOnboardingController.addBook(com.book.onboard.model.Author)
+2022-11-11 00:25:22,004 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [http-nio-9898-exec-1] Read "application/json;charset=UTF-8" to [com.book.onboard.model.Author@6ac7df9d]
+2022-11-11 00:25:22,101 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [http-nio-9898-exec-1] Using 'text/plain', given [*/*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2022-11-11 00:25:22,102 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [http-nio-9898-exec-1] Writing ["Book created successfully! "]
+2022-11-11 00:25:22,109 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-9898-exec-1] Completed 200 OK
+2022-11-11 00:26:03,558 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown initiated...
+2022-11-11 00:26:03,562 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown completed.
+2022-11-11 00:26:03,664 INFO com.book.onboard.BookOnboardingApp [restartedMain] Starting BookOnboardingApp on Hemanth-Kunchala with PID 31628 (C:\Users\Hemanth_Kunchala\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\Author_WordTracker_Application\target\classes started by Hemanth_Kunchala in C:\Users\Hemanth_Kunchala\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\Author_WordTracker_Application)
+2022-11-11 00:26:03,665 INFO com.book.onboard.BookOnboardingApp [restartedMain] The following profiles are active: dev
+2022-11-11 00:26:04,015 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2022-11-11 00:26:04,015 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.16]
+2022-11-11 00:26:04,039 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-11-11 00:26:04,039 DEBUG org.springframework.web.context.ContextLoader [restartedMain] Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2022-11-11 00:26:04,039 INFO org.springframework.web.context.ContextLoader [restartedMain] Root WebApplicationContext: initialization completed in 372 ms
+2022-11-11 00:26:04,082 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2022-11-11 00:26:04,089 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2022-11-11 00:26:04,379 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [restartedMain] Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2022-11-11 00:26:04,416 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [restartedMain] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-11-11 00:26:04,423 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [restartedMain] 8 mappings in 'requestMappingHandlerMapping'
+2022-11-11 00:26:04,426 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [restartedMain] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-11-11 00:26:04,429 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [restartedMain] ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-11-11 00:26:04,479 INFO com.book.onboard.BookOnboardingApp [restartedMain] Started BookOnboardingApp in 0.852 seconds (JVM running for 63.262)
+2022-11-11 00:27:40,725 INFO com.zaxxer.hikari.HikariDataSource [Thread-9] HikariPool-2 - Shutdown initiated...
+2022-11-11 00:27:40,727 INFO com.zaxxer.hikari.HikariDataSource [Thread-9] HikariPool-2 - Shutdown completed.
+2022-11-11 00:27:40,805 INFO com.book.onboard.BookOnboardingApp [restartedMain] Starting BookOnboardingApp on Hemanth-Kunchala with PID 31628 (C:\Users\Hemanth_Kunchala\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\Author_WordTracker_Application\target\classes started by Hemanth_Kunchala in C:\Users\Hemanth_Kunchala\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\Author_WordTracker_Application)
+2022-11-11 00:27:40,806 INFO com.book.onboard.BookOnboardingApp [restartedMain] The following profiles are active: dev
+2022-11-11 00:27:41,075 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2022-11-11 00:27:41,076 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.16]
+2022-11-11 00:27:41,101 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-11-11 00:27:41,102 DEBUG org.springframework.web.context.ContextLoader [restartedMain] Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2022-11-11 00:27:41,102 INFO org.springframework.web.context.ContextLoader [restartedMain] Root WebApplicationContext: initialization completed in 295 ms
+2022-11-11 00:27:41,142 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Starting...
+2022-11-11 00:27:41,147 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Start completed.
+2022-11-11 00:27:41,419 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [restartedMain] Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2022-11-11 00:27:41,455 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [restartedMain] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-11-11 00:27:41,462 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [restartedMain] 8 mappings in 'requestMappingHandlerMapping'
+2022-11-11 00:27:41,467 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [restartedMain] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-11-11 00:27:41,472 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [restartedMain] ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-11-11 00:27:41,536 INFO com.book.onboard.BookOnboardingApp [restartedMain] Started BookOnboardingApp in 0.751 seconds (JVM running for 160.319)
+2022-11-11 00:57:06,890 INFO c.b.o.BookOnboardingApp [restartedMain] Starting BookOnboardingApp on Hemanth-Kunchala with PID 36448 (C:\Users\Hemanth_Kunchala\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\Author_WordTracker_Application\target\classes started by Hemanth_Kunchala in C:\Users\Hemanth_Kunchala\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\Author_WordTracker_Application)
+2022-11-11 00:57:06,894 INFO c.b.o.BookOnboardingApp [restartedMain] The following profiles are active: dev
+2022-11-11 00:57:08,199 INFO o.a.c.c.StandardService [restartedMain] Starting service [Tomcat]
+2022-11-11 00:57:08,200 INFO o.a.c.c.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.16]
+2022-11-11 00:57:08,210 INFO o.a.c.c.AprLifecycleListener [restartedMain] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Users\Hemanth_Kunchala\Downloads\sts-4.16.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20221004-1257\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/Hemanth_Kunchala/Downloads/sts-4.16.1.RELEASE//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20221004-1257/jre/bin/server;C:/Users/Hemanth_Kunchala/Downloads/sts-4.16.1.RELEASE//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20221004-1257/jre/bin;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Python310\Scripts\;C:\Python310\;C:\Program Files\Java\jdk-11.0.15\bin;C:\Program Files\Eclipse Adoptium\jdk-8.0.332.9-hotspot\bin;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Hemanth_Kunchala\AppData\Local\Microsoft\WindowsApps;C:\Users\Hemanth_Kunchala\.dotnet\tools;C:\Users\Hemanth_Kunchala\AppData\Local\Programs\Microsoft VS Code\bin;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\system32;C:\Program Files (x86)\Nmap;C:\Users\Hemanth_Kunchala\AppData\Local\JetBrains\Toolbox\scripts;C:\Users\Hemanth_Kunchala\AppData\Roaming\npm;C:\Users\Hemanth_Kunchala\Downloads\sts-4.16.1.RELEASE;;.]
+2022-11-11 00:57:08,300 INFO o.a.c.c.C.[.[.[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-11-11 00:57:08,300 DEBUG o.s.w.c.ContextLoader [restartedMain] Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2022-11-11 00:57:08,300 INFO o.s.w.c.ContextLoader [restartedMain] Root WebApplicationContext: initialization completed in 1373 ms
+2022-11-11 00:57:08,435 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-11-11 00:57:08,549 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-11-11 00:57:10,005 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping [restartedMain] Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2022-11-11 00:57:10,125 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter [restartedMain] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-11-11 00:57:10,177 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping [restartedMain] 8 mappings in 'requestMappingHandlerMapping'
+2022-11-11 00:57:10,186 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping [restartedMain] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-11-11 00:57:10,194 DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [restartedMain] ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-11-11 00:57:10,383 ERROR o.a.c.u.LifecycleBase [restartedMain] Failed to start component [Connector[HTTP/1.1-9898]]
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:226) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:259) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:197) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:311) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:164) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552) [spring-context-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at com.book.onboard.BookOnboardingApp.main(BookOnboardingApp.java:10) [classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:555) ~[?:?]
+	at sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337) ~[?:?]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294) ~[?:?]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:89) ~[?:?]
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:236) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1085) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1171) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:568) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1005) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	... 19 more
+2022-11-11 00:57:10,394 INFO o.a.c.c.StandardService [restartedMain] Stopping service [Tomcat]
+2022-11-11 00:57:10,402 ERROR o.s.b.d.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 9898 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 9898, or configure this application to listen on another port.
+
+2022-11-11 00:57:10,407 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Shutdown initiated...
+2022-11-11 00:57:10,410 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Shutdown completed.
+2022-11-11 01:05:49,820 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(45)-127.0.0.1] HikariPool-3 - Shutdown initiated...
+2022-11-11 01:05:49,825 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(45)-127.0.0.1] HikariPool-3 - Shutdown completed.
